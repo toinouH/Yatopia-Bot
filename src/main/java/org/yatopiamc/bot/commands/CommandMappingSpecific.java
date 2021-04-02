@@ -19,7 +19,7 @@ import org.jetbrains.annotations.NotNull;
 
 @CommandAliases("yc|ym|yf|bc|bm|bf")
 @CommandDescription("Mapping specific commands. `y` for yarn, `b` for bukkit/spigot/md_5's")
-@CommandUsage("yc|?ym|?yf|?bc|?bm|?bf [mapping] [version] (page)")
+@CommandUsage("yc|/ym|/yf|/bc|/bm|/bf [mapping] [version] (page)")
 public class CommandMappingSpecific extends Command {
 
   private final YatopiaBot bot;
