@@ -96,7 +96,7 @@ public class YatopiaBot {
 
     CommandSettings settings = CommandSettings.defaultSettings();
     settings.setEnablePrefixCommand(false);
-    settings.setPrefixHandler(new ImmutablePrefixHandler("?"));
+    settings.setPrefixHandler(new ImmutablePrefixHandler("/"));
     settings.setEnableHelpCommand(true);
     settings.setAllowDMSCommands(false);
     settings.setErrorEmbed(() -> EmbedUtil.defaultEmbed().setColor(Color.RED).setTitle("Error"));
