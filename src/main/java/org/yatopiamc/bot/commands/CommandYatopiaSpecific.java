@@ -12,7 +12,7 @@ import org.jetbrains.annotations.NotNull;
 
 @CommandAliases("website|invite")
 @CommandDescription("Yatopia specific commands")
-@CommandUsage("website|?invite")
+@CommandUsage("website|/invite")
 public class CommandYatopiaSpecific extends Command {
 
   @Override
