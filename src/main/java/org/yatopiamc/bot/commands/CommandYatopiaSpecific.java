@@ -30,7 +30,7 @@ public class CommandYatopiaSpecific extends Command {
       channel
           .sendMessage(
               EmbedUtil.withAuthor(context.getAuthor())
-                  .setDescription("<https://discord.io/YatopiaMC>")
+                  .setDescription("<https://discord.gg/YatopiaMC>")
                   .build())
           .queue();
     }
