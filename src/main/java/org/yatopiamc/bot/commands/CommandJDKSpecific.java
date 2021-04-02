@@ -12,7 +12,7 @@ import org.yatopiamc.bot.EmbedUtil;
 
 @CommandAliases("jdk|flags|openj9|jvm|graalvm")
 @CommandDescription("JDK specific commands")
-@CommandUsage("jdk|?flags|?openj9|?jvm|?graalvm")
+@CommandUsage("jdk|/flags|/openj9|/jvm|/graalvm")
 public class CommandJDKSpecific extends Command {
 
   @Override
